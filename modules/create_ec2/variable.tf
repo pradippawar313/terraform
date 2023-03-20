@@ -4,7 +4,6 @@ variable "ami_id" {
 
 variable "ec2_type" {
   type = string
-  default = "t2.micro"
 }
 
 variable "ec2_pem" {
